@@ -1,0 +1,12 @@
+CANCION tema1 "Bohemian Rhapsody" "Queen" 354;
+CANCION tema2 "Yellow" "Coldplay" 269;
+PLAYLIST favoritas;
+AGREGAR tema1 A favoritas;
+AGREGAR tema2 A favoritas;
+VOLUMEN 90;
+SI VOLUMEN > 80
+ENTONCES VOLUMEN 50;
+FIN
+REPRODUCIR favoritas;
+QUITAR tema2 DE favoritas;
+MOSTRAR favoritas;
